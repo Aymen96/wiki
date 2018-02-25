@@ -1,3 +1,14 @@
-<p>
-  article-foot works!
-</p>
+<div class="article-foot">
+  <div class="article-foot-left">
+    <p class="comments-list">(3) Comments</p>
+  </div>
+  <div class="article-foot-right">
+    <i class="footer-icon icon-heart" (click)="liked = !liked" *ngIf="!liked"></i>
+    <i class="footer-icon icon-heart2" (click)="liked = !liked" *ngIf="liked"></i>
+    <i class="footer-icon icon-share"></i>
+    <i class="footer-icon icon-bubble" (click)="commented = !commented" *ngIf="!commented"></i>
+    <i class="footer-icon icon-bubble2" (click)="commented = !commented" *ngIf="commented"></i>
+    <i class="footer-icon icon-star-empty" (click)="starred = !starred" *ngIf="!starred"></i>
+    <i class="footer-icon icon-star-full" (click)="starred = !starred" *ngIf="starred"></i>
+  </div>
+</div>

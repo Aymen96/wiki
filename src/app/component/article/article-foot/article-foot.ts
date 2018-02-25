@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './article-foot.html',
   styleUrls: ['./article-foot.scss']
 })
-export class ArticleFootComponent implements OnInit {
+export class ArticleFootComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  public liked = false;
+  public commented = false;
+  public starred = false;
 
 }

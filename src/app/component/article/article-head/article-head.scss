@@ -1,15 +1,45 @@
 .article-head {
   padding:0;
   margin:0;
-  border: 1px solid gray;
   display:block;
   width:100%;
-  padding:15px 20px;
-}
+  box-sizing: border-box;
+  position:relative;
+  padding:15px 10px;
+  .visibility {
+    color: lightgrey;
+    cursor: pointer;
+    &:hover {
+      color:grey;
+    }
+  }
+  .publishDate {
+    display:block;
+    font-size: .7em;
+    color: gray;
+    margin-left:2px;
+  }
+  .publisher-box{
+    position: relative;
+  }
+  .pub-box-b {
+    position:absolute;
+    left:65px;
+    top:0px;
+  }
 
-:host {
-  display:inline-block;
-  display:block;
-  width:100%;
+  .settings-icons {
+    position:absolute;
+    top:20px;
+    right:25px;
+    color:lightgray;
 
+    i {
+      margin-left:8px;
+      &:hover {
+        cursor:pointer;
+        color:gray;
+      }
+    }
+  }
 }

@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-article-head',
@@ -7,9 +7,11 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ArticleHeadComponent {
     @Input()
-      public publisher = 'Anonym';
+      public publisher = '';
     @Input()
-      public publishDate = '23.02.2018';
+      public publishDate = '';
     @Input()
       public isVisibleToAll = true;
+    @Input()
+      public publisherImg = '';
 }

@@ -1,0 +1,18 @@
+.article-foot {
+  padding:0 50px;
+  .article-foot-left {
+    display:inline-block;
+  }
+  .article-foot-right {
+    float:right;
+    padding-top:15px;
+    i {
+      margin:0 8px;
+      cursor:pointer;
+      color:#666;
+      &:hover {
+        color:#000;
+      }
+    }
+  }
+}
