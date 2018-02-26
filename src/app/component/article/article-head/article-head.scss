@@ -10,7 +10,7 @@
     color: lightgrey;
     cursor: pointer;
     &:hover {
-      color:grey;
+      color:#E05729;
     }
   }
   .publishDate {
@@ -22,10 +22,14 @@
   .publisher-box{
     position: relative;
   }
+  .publisher {
+    font-size:1.1em;
+    font-weight: 700;
+  }
   .pub-box-b {
     position:absolute;
-    left:65px;
-    top:0px;
+    left:68px;
+    top:5px;
   }
 
   .settings-icons {
@@ -38,7 +42,7 @@
       margin-left:8px;
       &:hover {
         cursor:pointer;
-        color:gray;
+        color:#E05729;
       }
     }
   }

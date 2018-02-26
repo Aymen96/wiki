@@ -9,6 +9,7 @@ import {ArticleFootComponent} from './component/article/article-foot/article-foo
 import {ArticleHeadComponent} from './component/article/article-head/article-head';
 import {LogoComponent} from './component/atoms/logo/logo';
 import {ImageComponent} from './component/atoms/image/image';
+import {HeaderComponent} from './component/header/header';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {ImageComponent} from './component/atoms/image/image';
     ArticleFootComponent,
     ArticleHeadComponent,
     LogoComponent,
-    ImageComponent
+    ImageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

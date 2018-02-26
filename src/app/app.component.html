@@ -1,25 +1,22 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+<div class="bg-box"></div>
+<app-component-header></app-component-header>
+<div class="container">
+  <div class="center-container">
+    <app-component-article>
+      <app-article-head publisher="Michael Foxx" publishDate="02.01.2018" publisherImg="../../../../../assets/image/avatar.png"></app-article-head>
+      <app-article-body pubImg="../../../../../assets/image/losang.jpg"></app-article-body>
+      <app-article-foot></app-article-foot>
+    </app-component-article>
+    <app-component-article>
+      <app-article-head publisher="Jamie McDonald" publishDate="02.01.2018" [isVisibleToAll]="false" publisherImg="../../../../../assets/image/avatar-2.png"></app-article-head>
+      <app-article-body pubImg="../../../../../assets/image/california.jpg"></app-article-body>
+      <app-article-foot></app-article-foot>
+    </app-component-article>
+    <app-component-article>
+      <app-article-head publisher="Creepie Blogger" publishDate="02.01.2018" publisherImg="../../../../../assets/image/avatar-3.png"></app-article-head>
+      <app-article-body pubImg="../../../../../assets/image/manchester.jpg"></app-article-body>
+      <app-article-foot></app-article-foot>
+    </app-component-article>
 
+  </div>
 </div>
-
-
-<app-component-article>
-  <app-article-head publisher="Michael Foxx" publishDate="02.01.2018" publisherImg="../../../../../assets/image/avatar.png"></app-article-head>
-  <app-article-body pubImg="../../../../../assets/image/california.jpg"></app-article-body>
-  <app-article-foot></app-article-foot>
-</app-component-article>
-<app-component-article>
-  <app-article-head publisher="Jamie McDonald" publishDate="02.01.2018" [isVisibleToAll]="false" publisherImg="../../../../../assets/image/avatar-2.png"></app-article-head>
-  <app-article-body pubImg="../../../../../assets/image/losang.jpg"></app-article-body>
-  <app-article-foot></app-article-foot>
-</app-component-article>
-<app-component-article>
-  <app-article-head publisher="Creepie Blogger" publishDate="02.01.2018" publisherImg="../../../../../assets/image/avatar-3.png"></app-article-head>
-  <app-article-body pubImg="../../../../../assets/image/manchester.jpg"></app-article-body>
-  <app-article-foot></app-article-foot>
-</app-component-article>
-

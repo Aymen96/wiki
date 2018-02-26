@@ -1,0 +1,23 @@
+.bg-box {
+  display:inline-block;
+  width:100%;
+  min-height:150px;
+  background-color: #E05729;
+  position:fixed;
+  top:0;
+  z-index:-100;
+}
+div.container {
+  margin:0 auto;
+  width:100%;
+  position:absolute;
+  top:155px;
+}
+div.center-container {
+  margin:0 auto;
+  padding:0;
+  width:55%;
+}
+@media (max-width: 900px) {
+  div.center-container {width:100%;}
+}

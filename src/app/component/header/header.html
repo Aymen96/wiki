@@ -1,0 +1,25 @@
+<header class="header-wrapper">
+  <div class="header-border">
+    <div class="app-logo"></div>
+    <nav class="navbar">
+      <ul>
+        <li class="nav-el">Home</li>
+        <li class="nav-el">Messages</li>
+        <li class="nav-el">Plattform</li>
+      </ul>
+    </nav>
+
+    <div class="user-ui">
+      <div class="dropdown" (click)="showDropDownContent = !showDropDownContent">
+        <span class="user-dropdown"><span>aymen hachicha</span> <i class="icon icon-menu"></i></span>
+      </div>
+      <div class="dropdown-content" *ngIf="showDropDownContent">
+        <ul class="dropdown-list">
+          <li class="dropdown-el">Einstellungen</li>
+          <li class="dropdown-el">Account verwalten</li>
+          <li class="dropdown-el">abmelden</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

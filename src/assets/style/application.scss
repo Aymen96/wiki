@@ -5,3 +5,14 @@
 * {
   font-family: "Avenir Light";
 }
+ul {
+  list-style-type: none;
+}
+body {
+  padding:0;
+  margin:0;
+  background-color:#DFE2DB;
+}
+body:last-child {
+  margin-bottom: 50px;
+}

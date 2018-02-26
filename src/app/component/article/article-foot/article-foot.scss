@@ -11,8 +11,13 @@
       cursor:pointer;
       color:#666;
       &:hover {
-        color:#000;
+          color:#E05729;
       }
+    }
+    .icon-heart2,
+    .icon-bubble2,
+    .icon-star-full {
+      color:#E05729;
     }
   }
 }

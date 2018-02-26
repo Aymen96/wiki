@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?bybj0t');
-  src:  url('fonts/icomoon.eot?bybj0t#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?bybj0t') format('truetype'),
-    url('fonts/icomoon.woff?bybj0t') format('woff'),
-    url('fonts/icomoon.svg?bybj0t#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?kwmo4h');
+  src:  url('fonts/icomoon.eot?kwmo4h#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kwmo4h') format('truetype'),
+    url('fonts/icomoon.woff?kwmo4h') format('woff'),
+    url('fonts/icomoon.svg?kwmo4h#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,9 @@
 
 .icon-heart2:before {
   content: "\e908";
+}
+.icon-menu:before {
+  content: "\e90b";
 }
 .icon-bubble:before {
   content: "\e909";
@@ -101,75 +104,6 @@
 }
 .icon-heart:before {
   content: "\e907";
-}
-.icon-bubble2:before {
-  content: "\e90a";
-}
-.icon-star-half:before {
-  content: "\e904";
-}
-.icon-rate:before {
-  content: "\e904";
-}
-.icon-star:before {
-  content: "\e904";
-}
-.icon-star-full:before {
-  content: "\e905";
-}
-.icon-rate2:before {
-  content: "\e905";
-}
-.icon-star2:before {
-  content: "\e905";
-}
-.icon-favorite:before {
-  content: "\e905";
-}
-.icon-bookmark:before {
-  content: "\e905";
-}
-.icon-star-empty:before {
-  content: "\e906";
-}
-.icon-rate3:before {
-  content: "\e906";
-}
-.icon-star3:before {
-  content: "\e906";
-}
-.icon-favorite2:before {
-  content: "\e906";
-}
-.icon-bookmark2:before {
-  content: "\e906";
-}
-.icon-share:before {
-  content: "\e900";
-}
-.icon-social:before {
-  content: "\e900";
-}
-.icon-cog:before {
-  content: "\e901";
-}
-.icon-gear:before {
-  content: "\e901";
-}
-.icon-preferences:before {
-  content: "\e901";
-}
-.icon-settings:before {
-  content: "\e901";
-}
-.icon-generate:before {
-  content: "\e901";
-}
-.icon-control:before {
-  content: "\e901";
-}
-.icon-options:before {
-  content: "\e901";
 }
 .icon-lock-closed:before {
   content: "\e902";
